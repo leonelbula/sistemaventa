@@ -13,5 +13,7 @@ public interface CategoriaService {
 	public void save(Categoria categoria);
 	
 	public void delete(Long idCategoria);
+	
+	public Categoria validarPorNombre(String nombre);
 
 }

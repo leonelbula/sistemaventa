@@ -5,5 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.leonelbg.sistemaventa.models.Categoria;
 
 public interface CategoriaDAO extends JpaRepository<Categoria, Long>{
+	
+	public Categoria findByName(String nombre);
 
 }
